@@ -2,7 +2,7 @@
 
 ## Sagol School for Neuroscience, Tel Aviv University
 
-### Spring semester, 2025
+### Spring semester, 2026
 
 #### By [Gal Kepler](galkepler@gmail.com)
 
@@ -17,12 +17,5 @@ Homework assignments, excluding the first one, will be presented in different re
 To get started with python, please follow [these instructions](https://sagol-python-for-neuroscientists.github.io/textbook/tutorials/python_setup.html).
 
 <!-- ## Homework Assignments -->
-
-- [Assignment 1](assignments/assignment1/HW1.md)
-- [Assignment 2](https://classroom.github.com/a/L_IWUAsx)
-- [Assignment 3](https://classroom.github.com/a/mCO3Yotd)
-- [Assignment 4](https://classroom.github.com/a/mXbq8Ywd) 
-- [Assignment 5](https://github.com/sagol-python-for-neuroscientists/hw5-2025.git) - **Make sure to read the "special" submission guidelines!** -->
-- [Assignment 6](https://classroom.github.com/a/E9bvb2Ek) 
 
 General submission guidelines can be found [here](submission-guidelines.md).
