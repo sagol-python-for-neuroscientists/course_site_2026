@@ -16,6 +16,7 @@ Homework assignments, excluding the first one, will be presented in different re
 
 To get started with python, please follow [these instructions](https://sagol-python-for-neuroscientists.github.io/textbook/tutorials/python_setup.html).
 
-<!-- ## Homework Assignments -->
+## Homework Assignments
+[Assignment 1](https://colab.research.google.com/drive/1gJs5f1SdP8LJmvQh92cTeQyY9vf2Quxg?usp=sharing)
 
 General submission guidelines can be found [here](submission-guidelines.md).
