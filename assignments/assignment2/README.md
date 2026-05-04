@@ -1,10 +1,10 @@
 # Homework Assignment #2
 
-### Date: 07-04-2025
+### Date: 04-05-2026
 
-### Due date: 21-04-2025, 15:00
+### Due date: 18-05-2026, 15:00
 
-### To access the assignment, please [click here](https://classroom.github.com/a/L_IWUAsx), accept the assignment and begin working through it.
+### To access the assignment, please [click here](https://classroom.github.com/a/Qau7z43h), accept the assignment and begin working through it.
 
 
 ## Question 1: Morse Code Interpreter
