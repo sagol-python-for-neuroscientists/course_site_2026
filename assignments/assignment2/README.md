@@ -2,7 +2,7 @@
 
 ### Date: 04-05-2026
 
-### Due date: 18-05-2026, 15:00
+### Due date: 18-05-2026, 23:59
 
 ### To access the assignment, please [click here](https://classroom.github.com/a/Qau7z43h), accept the assignment and begin working through it.
 
