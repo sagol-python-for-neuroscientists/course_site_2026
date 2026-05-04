@@ -52,7 +52,7 @@ venv/
 
 
 # Assignments
-assignments
+# assignments
 assignments/assignment1/*.py
 assignments/assignment1/*.pdf
 assignments/assignment1/
