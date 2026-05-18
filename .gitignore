@@ -53,9 +53,9 @@ venv/
 
 # Assignments
 # assignments
-assignments/assignment1/*.py
-assignments/assignment1/*.pdf
-assignments/assignment1/
+# assignments/assignment1/*.py
+# assignments/assignment1/*.pdf
+# assignments/assignment1/
 # assignments/assignment2
 assignments/assignment2/*pdf
 assignments/assignment3
