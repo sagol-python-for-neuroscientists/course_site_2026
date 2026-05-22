@@ -1,8 +1,8 @@
 # Homework Assignment #3
 
-## Date: 21-04-2025
+## Date: 22-05-2026
 
-## Due date: 05-05-2025, 15:00
+## Due date: 06-06-2026, 23:59
 
 ### To access the assignment, please [click here](), accept the assignment and begin working through it.
 
