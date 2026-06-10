@@ -70,6 +70,6 @@ assignments/assignment4/hw*.py
 assignments/assignment5/hw*.py
 
 # Hackathon
-hackathon*
+# hackathon*
 *.ods*g
 *.xlsx
