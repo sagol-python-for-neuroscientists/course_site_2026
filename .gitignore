@@ -59,7 +59,7 @@ venv/
 # assignments/assignment2
 # assignments/assignment2/*pdf
 # assignments/assignment3
-assignments/assignment3/*pdf
+# assignments/assignment3/*pdf
 # assignments/assignment4
 assignments/assignment5
 assignments/assignment6
