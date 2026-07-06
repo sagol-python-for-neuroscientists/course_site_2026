@@ -1,8 +1,10 @@
 # Homework Assignment #6
 
-### Date: 06-07-2026
+## Date: 06-07-2026
 
-### Due date: 20-07-2026
+## Due date: 20-07-2026
+
+### To access the assignment, please [click here](https://classroom.github.com/a/C8JK4E7U), accept the assignment and begin working through it.
 
 ## Three-dimensional _Submarines_ Game
 
