@@ -73,7 +73,7 @@ class QuestionnaireAnalysis:
         A corrected DataFrame, i.e. the same table but with the erroneous rows removed and
         the (ordinal) index after a reset.
             """
-        return self.data[self.data['email'].apply(self.is_email_valid)]
+        return self.data[self.data['email'].apply(self.is_email_valid)].reset_index(drop=True)
         
     def fill_na_with_mean(self) -> tuple[pd.DataFrame, np.ndarray]:
         """Finds, in the original DataFrame, the subjects that didn't answer
@@ -88,11 +88,8 @@ class QuestionnaireAnalysis:
             Row indices of the students that their new grades were generated
             """
         q_cols = [col for col in self.data.columns if col.startswith('q')]
-
         has_nan_mask = self.data[q_cols].isnull().any(axis=1)
-
         corrected_indices = self.data.index[has_nan_mask].to_numpy()
-
         self.data[q_cols] = self.data[q_cols].apply(lambda row: row.fillna(row.mean()),axis=1)
 
         return self.data, corrected_indices
@@ -119,14 +116,10 @@ class QuestionnaireAnalysis:
         q_cols = [col for col in self.data.columns if col.startswith('q')]
 
         missing_count = self.data[q_cols].isna().sum(axis=1)
-
         average_scores = np.floor(self.data[q_cols].mean(axis=1))
 
         self.data['score'] = average_scores
-
-        self.data.loc[missing_count > maximal_nans_per_sub, 'score'] = pd.NA #
-
+        self.data.loc[missing_count > maximal_nans_per_sub, 'score'] = pd.NA
         self.data['score'] = self.data['score'].astype('UInt8')
 
         return self.data
-    
